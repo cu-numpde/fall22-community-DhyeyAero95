@@ -1,7 +1,7 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: MORIS (Multi-Physics Optimization Research and Innovation Systems)
+## Software: MORIS (Multi-Physics Optimization Research and Innov)
 
 MORIS is a shape/topology optimization tool for multiphysics problems. Its primary applications
 include various structural and fluid interaction problems. It consists of five module primarily which
@@ -16,35 +16,34 @@ HMR-XTK-FEM workflow, STK-FEM workflow, STK-XTK workflow. Each workflow is suite
 
 | Description | Your answer |
 |---------|-----------|
-| https://github.com/kkmaute/moris |    |
-| file:///home/bhavsar/codes/moris/build_dbg/share/doc/html/index.html |    |
-| 2019 |   |
-| 5 | `git shortlog -se --since=2021-10-01` may be useful |
-| 7 |   |
-| 2 | 
-| Weekly meeting and slack | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| 2 |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| pull requests | e.g., pull requests, patches on mailing lists   |
-| no | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL | https://github.com/kkmaute/moris   |
+| Main/documentation website | Not public yet   |
+| Year project was started | 2019  |
+| Number of contributors in the past year | 1000 |
+| Number of contributors in the lifetime of the project |  8 |
+| Number of distinct affiliations | 2 |
+| Where do development discussions take place? | Weekly meeting, Slack  |
+| Typical number of emails/comments per week? | 3-4  |
+| Typical number of commits per week? | 3  |
+| Typical commit size | Varies |
+| How does the project accept contributions? | pull requests   |
+| Does the project have an automated test suite? | no |
+| Does the project use continuous integration? | not sure |
+| Are any legal/licensing steps required to contribute? | not sure |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [yes ] I have run at least one example
+- [x] I have installed the software
+- [x] I have run at least one example
 - [ ] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
 
-I am notsure what continuous integration means. I am also not sure about typical commit size as it varies
-based on what every individual is contributing. 
+Not sure about continuous integration and legal/licensing steps for this project.
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
