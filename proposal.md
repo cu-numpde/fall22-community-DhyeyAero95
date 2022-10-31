@@ -1,27 +1,33 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: MORIS (Multi-Physics Optimization Research and Innovation Systems)
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+MORIS is a shape/topology optimization tool for multiphysics problems. Its primary applications
+include various structural and fluid interaction problems. It consists of five module primarily which
+includes HMR, XTK, GEN, FEM and OPT. HMR generates background mesh for the problem, XTK decomposes and
+triangulates the mesh at the interface of multi-phase problems, GEN is a geometry engine, FEM is a finite
+element module and OPT is an optimization module. Currently, optimization is based on level-set field
+formulation with extendded finite element formulation. MORIS also offers various workflows depending on the 
+type of problem. Various examples have been demonstrated for each workflow. Some of the workflows include 
+HMR-XTK-FEM workflow, STK-FEM workflow, STK-XTK workflow. Each workflow is suited for different types of problems. 
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
+| https://github.com/kkmaute/moris |    |
+| file:///home/bhavsar/codes/moris/build_dbg/share/doc/html/index.html |    |
+| 2019 |   |
+| 5 | `git shortlog -se --since=2021-10-01` may be useful |
+| 7 |   |
+| 2 | 
+| Weekly meeting and slack | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
 | Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
+| 2 |  |
 | Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
+| pull requests | e.g., pull requests, patches on mailing lists   |
+| no | yes/no |
 | Does the project use continuous integration? | yes/no |
 | Are any legal/licensing steps required to contribute? | no or explain below |
 
@@ -31,18 +37,14 @@ Check the following boxes when complete or add a note below if you
 encountered a problem.
 
 - [ ] I have installed the software
-- [ ] I have run at least one example
+- [yes ] I have run at least one example
 - [ ] I have run the test suite
 - [ ] The test suite passes
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+I am notsure what continuous integration means. I am also not sure about typical commit size as it varies
+based on what every individual is contributing. 
 
 #### Note on copyright
 Students retain copyright on any work done in completion of a CU
